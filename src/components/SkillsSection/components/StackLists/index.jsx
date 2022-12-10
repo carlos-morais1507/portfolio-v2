@@ -11,7 +11,6 @@ LangImg,
  } from '../../../../styles/elementStyles'
 
 
-
 const StackList = () => {
   const [stacks, setStacks] = useState([]);
 
@@ -34,7 +33,7 @@ const StackList = () => {
                           if(lang.type === 0) {
                               return(
                                 <StackWrapper  key={lang.id} >                                
-                                <LangImg id={lang.name} src={`images/stackList/${lang.name}.svg`} alt={lang.desc}/>
+                                <LangImg id={lang.name} src={`${lang.name}.svg`} alt={lang.desc}/>
                                 <StackTooltip >{lang.desc}</StackTooltip>
                                 </StackWrapper>
                                 )                                                   
@@ -46,7 +45,7 @@ const StackList = () => {
                           if(lang.type === 1) {
                             return(
                               <StackWrapper>
-                              <LangImg id={lang.name} key={lang.name} src={`images/stackList/${lang.name}.svg`} alt={lang.desc}/>
+                              <LangImg id={lang.name} key={lang.name} src={`${lang.name}.svg`} alt={lang.desc}/>
                               <StackTooltip>{lang.desc}</StackTooltip>
                               </StackWrapper>
                             )
@@ -58,7 +57,7 @@ const StackList = () => {
                           if(lang.type === 2) {
                             return(
                               <StackWrapper>
-                              <LangImg id={lang.name} key={lang.name} src={`images/stackList/${lang.name}.svg`} alt={lang.desc}/>
+                              <LangImg id={lang.name} key={lang.name} src={`${lang.name}.svg`} alt={lang.desc}/>
                               <StackTooltip>{lang.desc}</StackTooltip>
                               </StackWrapper>
                             )
@@ -70,7 +69,7 @@ const StackList = () => {
                           if(lang.type === 0) {
                             return(
                               <StackWrapper>                                
-                              <LangImg id={lang.name} key={lang.name} src={`images/stackList/${lang.name}.svg`} alt={lang.desc}/>
+                              <LangImg id={lang.name} key={lang.name} src={`${lang.name}.svg`} alt={lang.desc}/>
                               <StackTooltip>{lang.desc}</StackTooltip>
                               </StackWrapper>
                             )
