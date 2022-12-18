@@ -124,5 +124,23 @@
         "type": 3,
         "name": "gmail",
         "desc": "mailto:c.morais1507@gmail.com"
+    },
+    {
+        "id": 315527,
+        "type": 0,
+        "name": "next",
+        "desc": "Next.js"
+    },
+    {
+        "id": 375121,
+        "type": 0,
+        "name": "framer",
+        "desc": "Framer Motion"
+    },
+    {
+        "id": 474239,
+        "type": 0,
+        "name": "tailwind",
+        "desc": "Tailwind CSS"
     }
 ]
