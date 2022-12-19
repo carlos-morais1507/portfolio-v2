@@ -142,5 +142,11 @@
         "type": 0,
         "name": "tailwind",
         "desc": "Tailwind CSS"
+    },
+    {
+        "id": 442549,
+        "type": 1,
+        "name": "solidity",
+        "desc": "Solidity"
     }
 ]

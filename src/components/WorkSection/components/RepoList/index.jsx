@@ -26,7 +26,8 @@ const RepoList = () => {
                     <RepoListLi key={repository.id} >
                         <h3>{repository.name}</h3>
                         <RepoLiDesc>{repository.description}</RepoLiDesc>
-                        <RepoLiBtn target='blank' href={repository.html_url}>// Github Link</RepoLiBtn>
+                        <RepoLiBtn target='blank' href={repository.html_url}>// Project Link</RepoLiBtn>
+                        
                     </RepoListLi>
                 )})
             }
